@@ -40,7 +40,7 @@ function q6() {
 }
 
 q1();
-
+q6();
 // this is doing extra
 // if(answerOne === 'yes' || answerOne === 'y'){
 //   console.log('answerOne: ' + answerOne);
