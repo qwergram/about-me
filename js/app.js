@@ -30,8 +30,13 @@ function q6() {
       alert('Yes! are you a local seattlite');
       break;
     }
+    else if (userGuess < realSeattlAreaCode){
+      alert('Wrong are you from florida or something? the actual answer is higher');
+    }
+    else{
+      alert('Wrong just go ahead and google it at this point. Answer is lower');
+    }
   }
-
 }
 
 q1();
