@@ -15,6 +15,25 @@ function q1() {
   }
 }
 
+//function: key word 
+//q6 is the function
+// paranthesis would be arguments/ or hold parameters
+//let is the variable 
+//userGuess is the name
+//parseInt converst the string number to a number
+//break stops the for loop when the answer is correct
+function q6() {
+  const realSeattlAreaCode = 206;
+  for (let i=0; i < 6;i++){
+    let userGuess = parseInt(prompt('what is the area code for seattle washington?'));
+    if(userGuess === realSeattlAreaCode){
+      alert('Yes! are you a local seattlite');
+      break;
+    }
+  }
+
+}
+
 q1();
 
 // this is doing extra
